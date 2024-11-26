@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>A Volta dos que Não Foram</title>
+</head>
+<body>
+    <main>
+        <!-- Introdução -->
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="Grupo de amigos se despedindo">
+            <p>Um grupo de amigos estava prestes a seguir caminhos distintos. Contudo, uma notícia inesperada chega: uma oportunidade única os une novamente. A decisão está nas mãos deles. O que fazer?</p>
+            <button class="btn-proximo" data-proximo="1">Seguir caminhos separados</button>
+            <button class="btn-proximo" data-proximo="2">Aceitar a oportunidade juntos</button>
+        </div>
+
+        <!-- Caminhos Separados -->
+        <div class="passo" id="passo-1">
+            <p>Cada um segue seu caminho. Mas a distância não diminui os laços. Anos depois, um reencontro traz memórias e arrependimentos à tona.</p>
+            <button class="btn-proximo" data-proximo="3">Rever os amigos</button>
+        </div>
+
+        <!-- Decisão de aceitar a oportunidade -->
+        <div class="passo" id="passo-2">
+            <p>Os amigos decidem abraçar a oportunidade: explorar um local misterioso, prometendo descobertas únicas. A jornada começa com entusiasmo e desafios inesperados.</p>
+            <button class="btn-proximo" data-proximo="4">Explorar a floresta</button>
+            <button class="btn-proximo" data-proximo="5">Descansar e planejar</button>
+        </div>
+
+        <!-- Reencontro -->
+        <div class="passo" id="passo-3">
+            <p>No reencontro, histórias são compartilhadas. Uma carta misteriosa aparece, convidando o grupo a reviver aventuras antigas.</p>
+            <button class="btn-proximo" data-proximo="2">Aceitar o convite</button>
+        </div>
+
+        <!-- Explorando a floresta -->
+        <div class="passo" id="passo-4">
+            <p>A floresta revela segredos ocultos. Um mapa enigmático é encontrado, prometendo riquezas e mistérios.</p>
+            <button class="btn-proximo" data-proximo="6">Seguir o mapa</button>
+            <button class="btn-proximo" data-proximo="7">Ignorar o mapa</button>
+        </div>
+
+        <!-- Descanso -->
+        <div class="passo" id="passo-5">
+            <p>Enquanto descansam, um som estranho atrai o grupo. Eles decidem investigar, levando a um beco sem saída ou a algo inesperado.</p>
+            <button class="btn-proximo" data-proximo="4">Retornar à floresta</button>
+        </div>
+
+        <!-- Seguir o mapa -->
+        <div class="passo" id="passo-6">
+            <p>O mapa leva a uma caverna oculta. Lá, encontram inscrições que revelam um segredo antigo sobre a amizade e a força coletiva.</p>
+            <button class="btn-proximo" data-proximo="8">Descobrir o segredo</button>
+        </div>
+
+        <!-- Ignorar o mapa -->
+        <div class="passo" id="passo-7">
+            <p>Ao ignorar o mapa, o grupo se perde na floresta, mas acaba encontrando algo surpreendente: um lembrete de que a jornada é mais importante que o destino.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir juntos</button>
+        </div>
+
+        <!-- Descoberta final -->
+        <div class="passo" id="passo-8">
+            <p>O grupo entende que o verdadeiro tesouro era sua amizade. Decidem permanecer unidos, seja qual for o caminho que escolham a partir dali.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
